@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box; 
+    font-family: "Open Sans", sans-serif;
+}
+
+
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+} 
+
+ .navbar{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+
+.navbar {
+    margin-right: 20px;
+} 
+.light {
+    filter: brightness(0) invert(1);
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+header, h1{
+    color: white;
+}
+
+.center{
+    align-items:flex ;
+} 
+
+.btn-try{
+    margin-top: 8px;
+    padding: 6px 25px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+
+.btn-try:hover{
+
+    background-color: black;
+    color: #fff;
+    border-color: black;
+    transition: 0.5s;
+}
+
+.special-box h3{
+
+    color:black;
+
+}
+.special-box p{
+    color: grey;
+}
+
+.icon-holder p{
+
+    color:black;
+
+}
+
+.footerbox {
+        height: 50px;
+        width: 2000px;
+        background-color: dodgerblue;
+        padding: 80px;
+    
+}
+
+.text{
+    color:black;
+}
+
+.head .home{
+    padding: 15px 10px;
+}
+
+.head .img-responsive{
+    padding: 20px;
+}
+
+.home:hover{
+    color: black;
+    text-decoration: underline;
+    transition: 1s;
+}
+.First{
+    padding: 120px 30px 0px 30px;
+    background-color:dodgerblue;
+    height: 300;
+
+}
+.First h4, h1{
+    color:white;
+    border-image:space;
+}
+
+.First p{
+    color: #fff;
+}
+
+@media (min-width: 480px) {
+    .First .img-responsive {
+      margin-bottom: -50px; }
+      .First .img-responsive{
+        padding-top: 80px;
+        transition: width 1s, height 1s;
+      }
+      }
+.First .img-responsive:hover{
+    width: 700px;
+    height: 500px;
+}
+      
+.second{
+    padding: 80px;
+}
+
+.second .test-bright{
+    color: dodgerblue;
+}
+
+.column{
+    padding-top: 50px ;
+    padding-bottom: 20px;
+}
+
+.second ,p{
+    color: black;
+}
+
+.Third .img-responsive{
+    padding-bottom: 30px;
+}
+
+.thirdrow .text-block{
+    color: grey;
+    font-size: medium;
+}
+.four{
+    background-color: dodgerblue;
+    color: #fff;
+     padding: 50px; 
+}
+
+.btn btn-try{
+        margin-top: 8px;
+        padding-top: 30px;
+        background-color: transparent;
+        border: 2px solid #fff;
+        outline: none;
+        border-radius: 30px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 13px;
+        text-transform: uppercase;
+    
+    }
+
+.btn btn-try .but{
+    padding: 30px 20px;
+}
+    
+ .btn btn-try:hover{
+    
+        background-color: black;
+        color: #fff;
+        border-color: black;
+        transition: 0.5s;
+    }
+
+.five h2{
+    color: black;
+    padding: 40px;
+
+}
+
+h2{
+    color: black;
+    padding: 0px;
+
+}
+
+.text-bright{
+    color: dodgerblue;
+}
+.col .name {
+    color: black;
+}
+
+.col .subtittle{
+    color:rgb(44, 41, 41);
+    padding-bottom: 20px;
+}
+.sixtext{
+    padding: 40px;
+    text-align:center;
+}
+.sixtext .text-bright{
+    color: dodgerblue;
+}
+
+.btn-info {
+    color: #000;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 6px 25px;
+}
+.btn-info:hover{
+    
+    background-color: black;
+    color: #fff;
+    border-color: black;
+    transition: 0.5s;
+}
+/* .video-over .play-box{
+    color: white;
+    border-color: white;
+    border-radius:10px;
+    padding: 21px 40px ;
+  
+
+} */
+
+.text1{
+    color: #000;
+    padding:50px;
+    text-align: center;
+}
+
+.img .img-responsive{
+    width: 660px;
+    height: 460px;
+}
+.img .align{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.img p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.img .heading-wrap{
+    color: #000;
+    text-align: left;
+}
+.soft{
+    color:#fff;
+}
+.text-center{
+    padding: 30px;
+}
+.soical-network{
+    align-items: center;
+}

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body {
+
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.horizontal-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        ul.horizontal-list li {
+            margin-right: 10px;
+        }
+
+        .light {
+            filter: brightness(0) invert(1);
+        }
+
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- start header -->
+    <header style="background-color: dodgerblue;height:50px" class="head">
+        <img src="logo2.png" alt="cooper" class="img-responsive" width="150" height="30">
+        <ul class=" horizontal-list ">
+            <li class="home">HOME</li>
+            <li class="home">FEATURES</li>
+            <li class="home">ABOUT</li>
+            <li class="home">TESTIMONIAL</li>
+            <li class="home">PRICING</li>
+            <li><a href="#"><button class="btn-try">try demo</button></a></li>
+        </ul>
+
+    </header>
+    <!-- end header -->
+    <!-- section first -->
+    <section class="First">
+        <center>
+            <div class="container">
+                <h4>Best software for your office</h4>
+                <h1><b>TRY COOPER TODAY!</b></h1>
+                <p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh <br>euismod
+                    tincidunt ut laoreet dolore magna aliquam erat volutpat..</p>
+                <img src="img02.png" alt="image description" class="img-responsive">
+            </div>
+
+        </center>
+    </section>
+    <!-- end first -->
+    <!-- start section second -->
+    <section class="second">
+        <center>
+            <h2>
+                Best software to manage
+                <br>
+                your office
+                <span class="test-bright">"Work and Workers!"</span>
+            </h2>
+        </center>
+        <!-- text -->
+        <!-- column start -->
+        <div class="container column">
+            <div class="row">
+                <div class="col-md-1 icon-holder">
+                    <img src="id-card.svg" width="52" height="60" alt="icon id-card" class="img-responsive">
+                </div>
+                <div class="col-md-3 special-box">
+                    <h5>Special login system</h5>
+                    <p>"Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                        illum dolore."</p>
+                </div>
+                <div class="col-md-1 icon-holder">
+                    <img src="clock.svg" width="52" height="60" alt="icon id-card" class="img-responsive">
+                </div>
+                <div class="col-md-3 special-box">
+                    <h5>Time Tracking</h5>
+                    <p>"Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                        illum dolore."</p>
+                </div>
+                <div class="col-md-1 icon-holder">
+                    <img src="notes.svg" width="52" height="60" alt="icon id-card" class="img-responsive">
+                </div>
+                <div class="col-md-3 special-box">
+                    <h5>Make notes easily</h5>
+                    <p>"Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                        illum dolore."</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1 icon-holder">
+                    <img src="calculator.svg" width="52" height="60" alt="icon id-card" class="img-responsive">
+                </div>
+                <div class="col-md-3 special-box">
+                    <h5>calculator Daily cost</h5>
+                    <p>"Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                        illum dolore."</p>
+                </div>
+                <div class="col-md-1 icon-holder">
+                    <img src="cleaning.png" width="52" height="60" alt="icon id-card" class="img-responsive">
+                </div>
+                <div class="col-md-3 special-box">
+                    <h5>one click cleaning</h5>
+                    <p>"Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                        illum dolore."</p>
+                </div>
+                <div class="col-md-1 icon-holder">
+                    <img src="calendar.svg" width="52" height="60" alt="icon id-card" class="img-responsive">
+                </div>
+                <div class="col-md-3 special-box">
+                    <h5>Daily Report</h5>
+                    <p>"Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                        illum dolore."</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end section second -->
+    <!-- start section Third -->
+    <section class="Third">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 third">
+                    <h2>No more confusion and complex to manage your office.</h2>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,<br>
+                        vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio<br> dignissim
+                        qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                    <div class="row thirdrow">
+                        <div class="col-3">
+                            <h3><span class="counter">229</span><br>
+                                <span class="text-block">Components</span>
+                            </h3>
+                        </div>
+                        <div class="col-2">
+                            <h3><span class="counter">10</span><br>
+                                <span class="text-block">Themes
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="col-2">
+                            <h3><span class="counter">Unlimited</span>
+                                <span class="text-block">user</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 ">
+                    <img src="img03.png" width="450px" height="400px" class="img-responsive">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- end section third -->
+    <!-- start section four -->
+
+    <section class="four">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-8 ">
+                    <h2 class="soft">Need a prefect software to manage everything?</h2>
+                    <p class="soft">"Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming<br>
+                        id quod mazim placerat facer possim assum. Typi non habent claritatem insitam."</p>
+                </div>
+                <div class="col-2 but">
+                    <a href="#" class="btn btn-try">Purchase</a>
+                </div>
+                <div class="col-2 but">
+                    <a href="#" class="btn btn-try">Try Demo</a>
+                </div>
+            </div>
+
+    </section>
+    <!-- end four -->
+    <!-- start section 5 -->
+    <section>
+        <center>
+            <div class="container five">
+                <div class="row">
+                    <center>
+                        <header class="col">
+                            <h2>More than <span class="text-bright">20,000+ Customers</span>,
+                                <br>see some wishes here.
+                            </h2>
+                        </header>
+                    </center>
+
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <header class="col">
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium<br>
+                            lectorum. Mirum est notare quam littera gothica, </p>
+                        <strong class="name">David Ramon</strong><br>
+                        <span class="subtittle">Project Manager, D360-Studio</span>
+                </div>
+        </center>
+    </section>
+    <!-- end section 5  -->
+    <div class="container-fliud">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="aligncenter">
+                    <img src="img04.png" alt="image description" class="img-responsive" width="2000">
+                </div>
+            </div>
+        </div>
+        <!-- start section 6 -->
+        <section>
+            <center>
+                <div class="container">
+                    <div class="row">
+                        <div class="col sixtext">
+                            <h2>Our software is totally customisable and easy to use,<br>
+                                <span class="text-bright">no need to know anything!</span>
+                            </h2>
+                            <a href="#" class="btn btn-info">Purchase now</a>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </section>
+        <!-- end six -->
+        <!-- start video -->
+        <section class="video-block">
+            <div class="video overlay">
+                <img src="img05.jpg" alt="image description" class="img-responsive">
+                <a href="http://www.youtube.com/embed/9bZkp7q19f0?autoplay=1" class="play-box"></a>
+            </div>
+        </section>
+        <!-- end video -->
+        <section>
+            <div class="container text1">
+                <div class="row">
+                    <center>
+                        <header class="col-6">
+                            <h2>Select your <span class="text-bright">plan as your choise</span>,
+                                <br>no need to pay extra money.
+                            </h2>
+                        </header>
+                    </center>
+                </div>
+            </div>
+        </section>
+
+        <!-- text end -->
+        <!-- section 7 start -->
+        <section class="img">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="img06.jpg" alt="image description" class="img-responsive">
+                    </div>
+                    <div class="col-6">
+                        <div class="align">
+                            <header class="heading-wrap">
+                                <h3>Try our free trial today. If you don’t like, you can cancel it anytime!</h3>
+                            </header>
+                            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                                consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan
+                                et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+                                dolore te feugait nulla facilisi.</p>
+                            <a href="#" class="btn btn-info">Try our demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <center>
+            <div class="row text">
+                <header class="col text-center">
+                    <h2>Some of our <span class="text-bright">trusted customers</span>, <br>who are statisfied!</h2>
+                </header>
+            </div>
+        </center>
+        <section>
+            <div class="container">
+                <marquee>
+                    <div class="row">
+                        <div class="col">
+                            <img src="logo-1.jpg" alt="image description" class="img-responsive">
+                        </div>
+                        <div class="col"> <img src="logo-2.jpg" alt="image description" class="img-responsive">
+                        </div>
+                        <div class="col"> <img src="logo-3.jpg" alt="image description" class="img-responsive">
+                        </div>
+                        <div class="col"> <img src="logo-4.jpg" alt="image description" class="img-responsive"></div>
+                        <div class="col"> <img src="logo-5.jpg" alt="image description" class="img-responsive"></div>
+                        <div class="col"> <img src="logo-6.jpg" alt="image description" class="img-responsive"></div>
+                    </div>
+                </marquee>
+
+            </div>
+        </section>
+
+        <center>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 footerbox">
+                        <div class="logo"><img src="logo2.png" alt="cooper" width="200px" height="40px"></div>
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                            illum dolore</p>
+                    </div>
+                    <div class="col-md-12 footerbox">
+                        <p>© Copyright 2017, <a href="#">Cooper.com</a>. <br>All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </center>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="footer-social-icons">
+    <a href="https://www.facebook.com">
+    <i class="fa fa-facebook-square"></i>
+    </a>
+    <a href="https://www.twitter.com">
+    <i class="fa fa-twitter"></i>
+    </a>
+    <a href="https://plus.google.com">
+    <i class="fa fa-google"></i>
+    </a>
+    <a href="https://www.youtube.com">
+    <i class="fa fa-youtube-play"></i>
+    </a>
+    <a href="https://www.vimeo.com">
+    <i class="fa fa-vimeo"></i>
+    </a>
+    <a href="https://www.pinterest.com">
+    <i class="fa fa-pinterest-p"></i>
+    </a>
+    <a href="http://www.linkedin.com">
+    <i class="fa fa-linkedin"></i>
+    </a>
+    </div>
+
+
+    <div class="col-10">
+        <H6>HOME</H6>
+    </div>
+    <div class="col-1">
+        <H6>MENU</H6>
+    </div>
+    <div class="col-2">
+        <H6>RESERVATION</H6>
+    </div>
+    <div class="col-1">
+        <H6>RECIPIE</H6>
+    </div>
+    <div class="col-1">
+        <H6>BLOG</H6>
+    </div>
+    <div class="col-1">
+        <H6>SHOP</H6>
+    </div>
+    <div class="col-1">
+        <H6>CONTACT</H6>
+    </div>
+    <div class="col-1">
+        <H6>CART</H6>
+    </div> -->
